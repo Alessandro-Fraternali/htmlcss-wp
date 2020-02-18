@@ -146,11 +146,62 @@ nav ul li{
 
 main {
   background-color: white;
-  text-align: center;
-  height: 1100px;
+  height: 3100px;
   width: 550px;
   margin: 0 auto;
   margin-bottom: 20px;
+}
+.post {
+
+}
+.intestazione {
+  font-size: 2em;
+  font-weight: 1000;
+  padding: 20px;
+}
+.data {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.icocom {
+  margin-left: 20px;
+  display: inline-block;
+}
+.commenti {
+  display: inline-block;
+  color: #99cc33;
+  margin-bottom: 40px;
+}
+.foto img{
+  width: 550px;
+  margin-bottom: 40px;
+}
+.msg {
+  margin-left: 20px;
+  line-height: 180%;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.chiuso {
+  width: 500px;
+  background-color: #e6e6e6;
+  padding: 8px;
+  margin: auto;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+.c1{
+  font-size: 13.5px;
+  color: #99cc33;
+}
+.c2{
+  font-size: 14px;
+  color: #99cc33;
+}
+hr {
+  margin:auto;
+  width: 500px;
+  margin-bottom: 40px;
 }
 
 /* fine main */
