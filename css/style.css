@@ -139,18 +139,21 @@ nav ul li{
 #dx2 #tag2 {
   font-size: 22px;
 }
+
 /* fine sezione destra */
 
+/* inizio main */
+
 main {
-  /* debug rules */
-  background-color: orange;
+  background-color: white;
   text-align: center;
   height: 1100px;
-  /* end debug rules */
   width: 550px;
   margin: 0 auto;
   margin-bottom: 20px;
 }
+
+/* fine main */
 
 /* inizio sezioni footer */
 
@@ -241,25 +244,24 @@ main {
   float: left;
   margin-left: 20px;
   margin-top: 20px;
+  font-size: 12px;
+  padding: 20px;
 }
-
-
-
+#copy {
+  color: #9b9b9b;
+}
 .contatti {
   width: 615px;
-  /* debug rules */
-  height: 80px;
-  background-color: gray;
-  /* end debug rules */
-  display: inline-block;
+  height: 80px;  display: inline-block;
   margin-right: 20px;
   margin-top: 20px;
+  padding: 30px;
+  padding-left: 400px;
 }
 footer {
   /* debug rules */
   background-color: white;
   height: 120px;
-  text-align: center;
   /* end debug rules */
   clear: both;
 }
