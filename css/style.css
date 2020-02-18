@@ -6,6 +6,7 @@
 body {
   background-image:url(../img/sfondo.png);
   font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  color:#666666;
 }
 .container {
   max-width: 1280px;
@@ -38,7 +39,7 @@ header p{
   color: white;
 }
 nav {
-  background-color: #3d3d29;
+  background-color: #504741;
   margin-bottom: 20px;
   height: 50px;
   text-align: center;
@@ -58,27 +59,44 @@ nav ul li{
   width: 290px;
 }
 #sx1 {
+  padding: 20px;
+  font-size: 1.2em;
   margin-bottom: 20px;
-  /* debug rules */
   height: 380px;
-  background-color: cyan;
-  text-align: center;
-  /* end debug rules */
+  background-color: white;
+
+}
+#sx1 ul{
+  list-style-type: none;
+  padding: 15px;
+}
+#sx1 li {
+  color: #99cc33;
+  padding-bottom: 15px;
 }
 #sx2 {
+  padding: 15px;
   margin-bottom: 20px;
-  /* debug rules */
   height: 120px;
-  background-color: green;
-  text-align: center;
-  /* end debug rules */
+  background-color: white;
+}
+#sx2 ul{
+  color: #99cc33;
+  list-style-type: none;
+  padding: 15px;
 }
 #sx3 {
-  /* debug rules */
+  padding: 15px;
   height: 235px;
-  background-color: red;
-  text-align: center;
-  /* end debug rules */
+  background-color: white;
+}
+#sx3 ul{
+  color: #99cc33;
+  list-style-type: none;
+  padding: 15px;
+}
+#sx3 li {
+  padding-bottom: 25px;
 }
 
 /* fine sezione sinistra */
@@ -105,13 +123,14 @@ nav ul li{
   margin-right: 10px;
 }
 #dx2 {
+  color: #666666;
   padding:24px;
   height: 160px;
   background-color: white;
 }
 #dx2 div{
-  margin-top: 12px;
   color: #99cc33;
+  margin-top: 12px;
   font-size: 10px;
 }
 #dx2 #tag1 {
@@ -136,61 +155,96 @@ main {
 /* inizio sezioni footer */
 
 .endpage {
-  /* debug rules */
-  background-color: purple;
+  background-color: white;
   height: 300px;
-  /* end debug rules */
+  border-bottom: 1px solid #c8c8c8;
 }
 .posts {
   width: 210px;
   /* debug rules */
   height: 240px;
-  background-color: cyan;
+  background-color: white;
   /* end debug rules */
   float: left;
   margin-left: 20px;
   margin-top: 20px;
 }
+.posts ul{
+  color: gray;
+  list-style-type: none;
+  padding: 15px;
+}
+.posts li {
+  font-size: 14px;
+  padding-bottom: 25px;
+}
 .comments {
-  width: 210px;
+  width: 180px;
   /* debug rules */
   height: 240px;
-  background-color: yellow;
+  background-color: white;
   /* end debug rules */
   display: inline-block;
   margin-left: 20px;
   margin-top: 20px;
+  float: left;
+}
+.comments ul{
+  color: gray;
+  list-style-type: none;
+  padding: 15px;
+}
+.comments li {
+  font-size: 14px;
+  padding-bottom: 25px;
 }
 .categories {
   width: 180px;
   /* debug rules */
   height: 210px;
-  background-color: lightgreen;
+  background-color: white;
   /* end debug rules */
   display: inline-block;
   margin-left: 20px;
   margin-top: 20px;
+  float: left;
+}
+.categories ul{
+  color: gray;
+  list-style-type: none;
+  padding: 15px;
+}
+.categories li {
+  font-size: 14px;
+  padding-bottom: 25px;
 }
 .text {
   width: 450px;
-  /* debug rules */
   height: 220px;
-  background-color: pink;
-  /* end debug rules */
   display: inline-block;
   margin-left: 130px;
   margin-top: 20px;
 }
+.testino {
+  padding-top: 15px;
+  color: gray;
+}
+
+
+/* fondo pagina */
+
 .cr {
   width: 615px;
   /* debug rules */
   height: 80px;
-  background-color: olive;
   /* end debug rules */
   float: left;
   margin-left: 20px;
   margin-top: 20px;
 }
+
+
+
 .contatti {
   width: 615px;
   /* debug rules */
@@ -203,7 +257,7 @@ main {
 }
 footer {
   /* debug rules */
-  background-color: blue;
+  background-color: white;
   height: 120px;
   text-align: center;
   /* end debug rules */
