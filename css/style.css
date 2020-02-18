@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image:url(../img/sfondo.png);
+}
+.container {
+  max-width: 1280px;
+  margin: 0px auto;
+  background-color: #ffff99;
+}
+header {
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  border: 12px solid white;
+  background-color: white;
+  text-align: center;
+  padding-left: 12px;
+  margin-top: 25px;
+  height: 220px;
+  width: 1280px;
+}
+.titolo {
+  padding: 48px;
+}
+header a{
+  font-size: 4em;
+  color: white;
+  text-decoration: none;
+}
+header p{
+  font-family: 'Montserrat';
+  font-size: 24px;
+  color: white;
+}
+nav {
+  /* debug rules */
+  background-color: red;
+  text-align: center;
+  margin-bottom: 20px;
+  /* end debug rules */
+  height: 50px;
+}
+
+/* inizio sezione sinistra */
+
+.asidesx {
+  float: left;
+  width: 290px;
+}
+#sx1 {
+  margin-bottom: 20px;
+  /* debug rules */
+  height: 380px;
+  background-color: cyan;
+  text-align: center;
+  /* end debug rules */
+}
+#sx2 {
+  margin-bottom: 20px;
+  /* debug rules */
+  height: 120px;
+  background-color: green;
+  text-align: center;
+  /* end debug rules */
+}
+#sx3 {
+  /* debug rules */
+  height: 235px;
+  background-color: red;
+  text-align: center;
+  /* end debug rules */
+}
+
+/* fine sezione sinistra */
+
+/* inizio sezione destra */
+
+.asidedx {
+  width: 350px;
+  float: right;
+  display: inline-block;
+}
+#dx1 {
+  margin-bottom: 20px;
+  /* debug rules */
+  height: 90px;
+  background-color: cyan;
+  text-align: center;
+  /* end debug rules */
+}
+#dx2 {
+    /* debug rules */
+  height: 160px;
+  background-color: green;
+  text-align: center;
+  /* end debug rules */
+}
+
+/* fine sezione destra */
+
+main {
+  /* debug rules */
+  background-color: orange;
+  text-align: center;
+  height: 1100px;
+  /* end debug rules */
+  width: 550px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* inizio sezioni footer */
+
+.endpage {
+  /* debug rules */
+  background-color: purple;
+  height: 300px;
+  /* end debug rules */
+}
+.posts {
+  width: 210px;
+  /* debug rules */
+  height: 240px;
+  background-color: cyan;
+  /* end debug rules */
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.comments {
+  width: 210px;
+  /* debug rules */
+  height: 240px;
+  background-color: yellow;
+  /* end debug rules */
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.categories {
+  width: 180px;
+  /* debug rules */
+  height: 210px;
+  background-color: lightgreen;
+  /* end debug rules */
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.text {
+  width: 450px;
+  /* debug rules */
+  height: 220px;
+  background-color: pink;
+  /* end debug rules */
+  display: inline-block;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+.cr {
+  width: 615px;
+  /* debug rules */
+  height: 80px;
+  background-color: olive;
+  /* end debug rules */
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.contatti {
+  width: 615px;
+  /* debug rules */
+  height: 80px;
+  background-color: gray;
+  /* end debug rules */
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+footer {
+  /* debug rules */
+  background-color: blue;
+  height: 120px;
+  text-align: center;
+  /* end debug rules */
+  clear: both;
+}
